@@ -8,37 +8,37 @@ Assim, para cada uma das atividades, é descrito um conjunto de valores referent
 
 
 # Conta de Laboratório
-Nome do laboratório
-Espaço ocupado
-Cota (limite de espaço)
-Adicionar dados
-Remover dados
-Verificar uso de espaço
+Nome do laboratório|
+Espaço ocupado|
+Cota (limite de espaço)|
+Adicionar dados|
+Remover dados|
+Verificar uso de espaço|
 Imprimir estado
 
 # Disciplina
-Nome da disciplina
-Horas de estudo
-Notas 1, 2, 3 e 4
-Cadastrar horas de estudo
-Cadastrar uma nota
-Calcular média
-Verificar se foi aprovado
+Nome da disciplina|
+Horas de estudo|
+Notas 1, 2, 3 e 4|
+Cadastrar horas de estudo|
+Cadastrar uma nota|
+Calcular média|
+Verificar se foi aprovado|
 Imprimir estado
 
 # Conta da Cantina
-Nome da cantina
-Débito em conta
-Adicionar lanche (quantidade de alimentos e valor)
-Pagar conta
-Verificar o débito em conta
+Nome da cantina|
+Débito em conta|
+Adicionar lanche (quantidade de alimentos e valor)|
+Pagar conta|
+Verificar o débito em conta|
 Imprimir estado
 
-#Saúde
+# Saúde
 
-Saúde física
-Saúde mental
-Definir estado de saúde mental
-Definir estado de saúde física
+Saúde física|
+Saúde mental|
+Definir estado de saúde mental|
+Definir estado de saúde física|
 Retorna estado geral de saúde
 
