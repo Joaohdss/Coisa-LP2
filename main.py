@@ -48,6 +48,38 @@ class Saude(object):
 			return self.saude_fisica
 		else:
 			return 'ok'
+class Disciplina(object):
+
+	def __init__(self,nome,horas = 0, nota1 = 0.0,nota2 = 0.0 , nota3 = 0.0 , nota4 = 0.0):
+		self.nome = nome
+		self.horas = horas
+		self.nota1 = notas1
+		self.nota2 = notas2
+		self.nota3 = notas3
+		self.nota4 = notas4
+
+	def cadastro_notas(self,pos,num):
+		if(pos == 1):
+			self.nota1 = num
+		elif(pos == 2):
+			self.nota2 = num
+		elif(pos == 3):
+			self.nota3 = num
+		elif(pos == 4):
+			self.nota4 = num
+	def cadastro_horas(self, hora):
+		self.horas += hora
+		
+	def nota_final(self):
+		media = (self.nota1 + self.nota2 + self.nota3 + self.nota4) / 4
+		return media
+
+	def aprovado(self):
+		if(nota_final() >= 7):
+			return True
+		return False
+	def toStrD(self):
+		return '%s %i %d' %(self.nome , self.horas , nota_final())
 ## Conta Laboratio
 
 lcc = Conta_Laboratorio('LCC2')
