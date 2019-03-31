@@ -33,7 +33,21 @@ class Conta_Cantina(object):
 		self.debito -= dinheiro
 	def toStr(self):
 		return '%s %i %i' %(self.nome_disciplina, self.quantidade,self.acumulado)
+# Saude
+class Saude(object):
+	def __init__(self,saude_fisica = 'boa',saude_mental = 'boa'):
+		self.saude_fisica = saude_fisica
+		self.saude_mental = saude_mental
 
+	def define_saude_mental(self, mental):
+		self.saude_mental = mental
+	def define_saude_fisica(self,fisica):
+		self.saude_fisica = fisica
+	def get_status_geral(self):
+		if(self.saude_fisica == self.saude_mental):
+			return self.saude_fisica
+		else:
+			return 'ok'
 ## Conta Laboratio
 
 lcc = Conta_Laboratorio('LCC2')
